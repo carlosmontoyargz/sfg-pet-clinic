@@ -7,7 +7,7 @@ import lombok.Data;
  * @since 14/11/2018
  */
 @Data
-public class PetType
+public class PetType extends BaseEntity
 {
 	private String name;
 }

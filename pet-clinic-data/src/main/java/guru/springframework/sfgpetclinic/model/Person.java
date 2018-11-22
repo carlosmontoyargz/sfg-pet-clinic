@@ -7,7 +7,7 @@ import lombok.Data;
  * @since 14/11/2018
  */
 @Data
-public class Person
+public class Person extends BaseEntity
 {
 	private String firstName;
 	private String lastName;
